@@ -8,6 +8,11 @@ body > * {
     padding-right: 15%;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 .header {
     font-size: 24px;
     color: #F9FAF8;
@@ -109,4 +114,42 @@ body > * {
     font-size: 16px;
     font-weight: bold;
     text-align: end;
+}
+
+.cta-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 25px 50px;
+    border-radius: 12px;    
+}
+
+.cta-outer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.cta-heading {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cta-text {
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+.cta-inner .signup-button {
+    border: 2px solid white;
+}
+
+.footer {
+    background-color: #1f2937;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #e5e7eb;
+    font-weight: lighter;
 }
